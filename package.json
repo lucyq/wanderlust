@@ -1,0 +1,16 @@
+{
+  "name": "Wanderlust",
+  "version": "0.0.0",
+  "description": "Plan your next backpacking trip",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "keywords": [],
+  "author": "Lucy Qin",
+  "license": " "
+}

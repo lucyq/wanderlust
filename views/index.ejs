@@ -1,0 +1,19 @@
+<% layout('layout') -%>
+
+
+
+<div id ="map_canvas"></div>
+
+<div class="forms" id="submit_location">
+	<h2 style="text-align: left">Submit a new location</h2>
+		<form method="post" action="/submit_location">
+		Name:<br> <input class="textbox" type="text" name="name"/><br><br>
+		Location Name:<br> <input class="textbox" type="text" name="loc_name"/><br><br>
+		Location Address:<br> <input class="textbox" type="text" name="loc_address"/><br><br>
+	
+		<input type="submit" value="Submit"/><br><br>
+	</form>
+</div>
+
+
+<script src="../public/js/map.js"></script>
